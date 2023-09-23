@@ -98,3 +98,6 @@ res.send('rohan_movie_bot is working')
 
 }
 )
+app.listen(3000,()=>{
+  console.log('Server port no 3000 ma run vairaaxa')
+})
