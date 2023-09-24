@@ -28,7 +28,8 @@ app.get('/',async (req,res)=>{
   
   bot.on(message("text"), async (ctx) => {
     const message = ctx.message.text.toLowerCase().trim();
-  
+    ctx.reply('Working naa......')
+  return;
   
     const url = `https://api.themoviedb.org/3/search/movie?query=${message}&include_adult=false&language=en-US&page=1`;
   
