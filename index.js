@@ -95,7 +95,7 @@ app.get('/',async (req,res)=>{
   return template
   }
   
-res.send('rohan_movie_bot is working')
+res.send('rohan_movie_bot is workingg')
 
 }
 )
